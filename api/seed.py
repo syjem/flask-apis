@@ -1,4 +1,4 @@
-from models import db, Contact
+from api.models import db, Contact
 
 # Sample contacts data
 contacts = [

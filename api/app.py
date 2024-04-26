@@ -1,8 +1,8 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from config import Config
-from models import db, Contact
-from seed import seed_database
+from api.config import Config
+from api.models import db, Contact
+from api.seed import seed_database
 
 app = Flask(__name__)
 CORS(app)
